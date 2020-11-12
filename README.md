@@ -4,7 +4,7 @@
 
 # Freshr
 
-Fresh Extension for **Brave** , **Chrome** and **FireFox**
+Freshr extension for , **Chromium** and **FireFox**
 
 ### What it does?
 
