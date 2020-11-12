@@ -1,0 +1,91 @@
+body {
+    width: 300px;
+    height: 200px;
+    background: #eee;
+    font-family: Pacifico;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+body.chaos {
+    background: linear-gradient(rgba(100,1,128,1) 0%, rgba(0,8,46,1) 100%)
+}
+
+p {
+    top: 45%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    border: none;
+    border-radius: 10px;
+    color: #888;
+    font-family: Roboto;
+    display: inline-block;
+    width: 150px;
+    transition: background-color 200ms;
+    outline: none;
+    user-select: none;
+}
+
+#sec {
+    top: 75%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    display: inline-block;
+    background-color: #ddd;
+    -webkit-appearance: none;
+    height: 7px;
+    border-radius: 999px;
+    outline: none;
+    appearance: none;
+}
+
+#sec::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  border-radius: 25%;
+  background: #1100FF;
+  cursor: pointer;
+}
+
+#sec::-moz-range-thumb {
+  width: 15px;
+  height: 15px;
+  border-radius: 25%;
+  background: #1100FF;
+  cursor: pointer;
+}
+
+.hint {
+    color: #1100FF;
+    position: absolute;
+    top: 87%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: inline-block;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #aaa;
+    color: #555;
+}
+
+button:active {
+    background-color: #888;
+    color: #ddd;
+}
+
+@font-face {
+    src: url('Pacifico.ttf');
+    font-family: 'Pacifico';
+}
+
+@font-face {
+    src: url('Roboto.ttf');
+    font-family: 'Roboto';
+}
